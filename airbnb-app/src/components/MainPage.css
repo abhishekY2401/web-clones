@@ -1,0 +1,25 @@
+.middle-part-page {
+    height: 82vh;
+}
+
+.main-pages {
+    height: 50px;
+    display: flex;
+    margin-left: 20px;
+}
+
+.main-pages > a > img {
+    margin-top: 40px;
+    margin-left: 5vw;
+    height: 26px;
+    filter: opacity(0.4) drop-shadow(0 0 0 black); 
+}
+
+.main-pages > a > img:hover {
+    filter: opacity(1) drop-shadow(0 0 0 black); 
+}
+
+.new-places {
+    display: flex;
+    align-items: center;
+}

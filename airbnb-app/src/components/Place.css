@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+.place:first-of-type {
+    margin-left: 5rem;
+}
+
+.place {
+    margin-top: 70px;
+    width: 350px;
+    height: 400px;
+}
+
+.description {
+    margin-top: 15px;
+}
+
+.place > img {
+    object-fit: cover;
+    width: 320px;
+    height: 306px;
+    border-radius: 15px;
+}
+
+.place-desc {
+    font-weight: bold;
+    font-family: 'Anek Latin', sans-serif;
+    word-spacing: 2px;
+}
+
+.desc, 
+.duration {
+    color: rgb(103 99 99);
+    font-family: 'Lato', sans-serif;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.price {
+    font-family: 'Work Sans', sans-serif;
+    padding: 2px;
+}
